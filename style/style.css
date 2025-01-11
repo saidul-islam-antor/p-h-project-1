@@ -203,10 +203,83 @@ body {
     
     
   }
+  .news-content{
+    text-align: center;
+  }
   .news2-pic{
   
     height: 306px;
     width: 408px;
     margin-right: 70px;
 
+  }
+  
+
+  /* Donate Today secston */
+  .donate-section{
+    padding: 30px;
+  }
+  .taka-heading{
+    text-align: center;
+  }
+  .taka-cards{
+    display: flex;
+    gap: 24px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 32px 105px 32px 105px;
+   
+    
+  }
+  .taka-card1{
+    padding: 30px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    border: 1px #0E0E0E26;
+    font-size: 30px;
+    /* height: 48px;
+    width: 184px; */
+  }
+  .taka-card2{
+    padding: 30px;
+    background-color: #C6E4D6;
+    border-radius: 16px;
+    border: 1px #0E0E0E26;
+    font-size: 30px;
+  }
+  .input-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+   
+  }
+  .center-input{
+    width: 70%;
+    border-radius: 5px;
+    text-align: center;
+    border:none;
+    height: 15px;
+    color: #FFFFFF;
+    padding: 20px 40px;
+    border: 1px solid #0E0E0E26;
+  }
+  .button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .done-btn{
+    background-color: #09A15C;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+   margin: 25px;
+   border: none;
+   align-items: center;
+font-size: 16px;
+cursor: pointer;
+  }
+  .done-btn:hover{
+    background-color: #a18809;
   }
