@@ -57,7 +57,7 @@ body {
    line-height: 65px;
   }
   
-  .explore-btn {
+  .Explore-btn {
     background-color: #006A50;
     color:white;
     border: none;
@@ -65,6 +65,9 @@ body {
     margin-top: 10px;
     cursor: pointer;
     border-radius: 5px;
+  }
+  .Explore-btn:hover{
+    background-color: #d8b70e;
   }
   
   .image-content img {
@@ -136,6 +139,9 @@ body {
     border: none;
    
   }
+  .card-btn1:hover{
+    background-color: #f55454;
+  }
   .card-btn2{
     background-color: #09A15C;
     color: white;
@@ -143,6 +149,9 @@ body {
     border-radius: 5px;
    margin: 25px 0px;
    border: none;
+  }
+  .card-btn2:hover{
+    background-color: #730505;
   }
   .card-btn3{
     background-color: #FFC239;
@@ -152,6 +161,9 @@ body {
     margin: 25px 0px;
     border: none;
 
+  }
+  .card-btn3:hover{
+    background-color: #54f567;
   }
   
   .news-container{
@@ -173,12 +185,7 @@ body {
     margin-left: 70px;
    
   }
-  .sub-titile{
-    display: flex;
-    gap: 10px;
-    font-weight: 400;
-    color: #0E0E0EB2;
-  }
+  
   img{
     border-radius: 24px;
   }
@@ -189,6 +196,9 @@ body {
     border-radius: 5px;
     margin: 10px ;
     padding: 10px 25px;
+  }
+  .read-btn:hover{
+    background-color:rgb(156, 156, 8);
   }
   .news2-container{
     background-color: #FFFFFF;
@@ -205,9 +215,10 @@ body {
   }
   .news-content{
     text-align: center;
+    
   }
   .news2-pic{
-  
+    
     height: 306px;
     width: 408px;
     margin-right: 70px;
@@ -231,15 +242,20 @@ body {
    
     
   }
+  .taka-cards :hover{
+    background-color: pink;
+  }
   .taka-card1{
     padding: 30px;
     background-color: #FFFFFF;
     border-radius: 16px;
     border: 1px #0E0E0E26;
     font-size: 30px;
-    /* height: 48px;
-    width: 184px; */
+   
   }
+  
+
+  
   .taka-card2{
     padding: 30px;
     background-color: #C6E4D6;
@@ -281,7 +297,7 @@ font-size: 16px;
 cursor: pointer;
   }
   .done-btn:hover{
-    background-color: #a18809;
+    background-color: #d8b70e;
   }
 
   /* subscriber section start */
@@ -297,6 +313,11 @@ cursor: pointer;
   .subscriber-content{
     margin-bottom: 80px;
   }
+  .subcriber-from{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .subcriber-from input{
     padding: 18px 40px;
     font-size: 16px;
@@ -304,17 +325,23 @@ cursor: pointer;
     border-bottom-left-radius: 8px;
     width: 500px;
     
+    
   }
   .subcriber-from button{
     padding: 17px 34px;
     font-size: 18px;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
-    margin-bottom: 24px;
+   
     color: white;
     background-color: #006A50;
     cursor: pointer;
   
-
-    
   }
+  .subcriber-from button:hover{
+    background-color:#d8b70e;
+  }
+.small-des{
+  margin-top: 24px;
+}
+
