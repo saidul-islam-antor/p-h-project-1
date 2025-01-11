@@ -283,3 +283,38 @@ cursor: pointer;
   .done-btn:hover{
     background-color: #a18809;
   }
+
+  /* subscriber section start */
+  .subscriber-container{
+    background-color: #C6E4D6;
+    
+    padding: 80px 100px;
+    border-radius: 24px;
+    text-align: center;
+    margin: 20px auto;
+
+  }
+  .subscriber-content{
+    margin-bottom: 80px;
+  }
+  .subcriber-from input{
+    padding: 18px 40px;
+    font-size: 16px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    width: 500px;
+    
+  }
+  .subcriber-from button{
+    padding: 17px 34px;
+    font-size: 18px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-bottom: 24px;
+    color: white;
+    background-color: #006A50;
+    cursor: pointer;
+  
+
+    
+  }
